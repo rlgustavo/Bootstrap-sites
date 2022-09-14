@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+body {
+  font: 400 16px "Courier Prime", monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.parede {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.logo {
+  color: darkred;
+  font: 600 90px "Courier Prime", sans-serif;
+  vertical-align: middle;
+}
+
+.logo img {
+  width: 140px;
+  vertical-align: middle;
+}
+
+.menu3 a :hover {
+  text-decoration: none;
+}
+
+.menu a {
+  font-family: "Courier Prime";
+  font-size: min(max(22px, 1.33vw), 24px);
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+  display: inline-block;
+  margin-left: 1vw;
+  padding: 0.4vh 0.4vw 0.4vh 0.4vw;
+  border-radius: 0.4vw;
+  background: white;
+}
+
+.menu a.select {
+  color: #e8a202;
+}
+
+.menu a:hover {
+  background: #e8a202;
+  text-decoration: none;
+  color: white;
+}
+
+.menu a.donate:hover {
+  background: green;
+}
+
+.menu2 a {
+  font-family: "Courier Prime";
+  text-decoration: none;
+  margin: 5px;
+  padding: 4px 2px 2px 4px;
+}
+
+.menu2 a.select2 {
+  margin: 5px;
+  padding: 4px 2px 2px 4px;
+  border-radius: 4px;
+  background: #e8a202;
+  text-decoration: none;
+  color: white;
+}
+
+.menu2 a.donate:hover {
+  background: green;
+  color: white !important;
+  margin: 5px;
+  padding: 4px 2px 2px 4px;
+  border-radius: 4px;
+}
+
+.menu3 a {
+  font-family: "Courier Prime";
+  text-decoration: none;
+  margin: 5px;
+  padding: 4px 2px 2px 4px;
+}
+
+.menu3 a.donate:hover {
+  color: darkred !important;
+  text-decoration: underline;
+}
+
+.header-background {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50vw;
+  height: 360px;
+  background: url(img/formulas.png) repeat-x;
+  background-position: 0 0;
+  width: 100%;
+  background-size: 37% auto;
+  background-repeat: repeat;
+  opacity: 0.1;
+}
+
+.parede {
+  position: absolute;
+  left: 0%;
+  top: 28%;
+  max-height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+#enter {
+  width: 100%;
+  height: 11vh;
+  padding: 2vh 0 2vh 0;
+  text-align: center;
+}
+
+#enter textarea {
+  font-family: "Courier Prime";
+  width: 80%;
+  height: 70px;
+  border: solid 1px #ccc;
+  border-radius: 0.4vw;
+  text-align: center;
+  font-size: 1.33rem;
+}
+
+#enter button {
+  cursor: pointer;
+  border: solid 1px darkred;
+  color: white;
+  font-size: max(24px, 1.88vw);
+  background: darkred;
+  border-radius: 0.4vw;
+  vertical-align: top;
+  height: 70px;
+  padding-right: 2%;
+}
+
+#enter button:hover {
+  background: firebrick;
+  border-color: firebrick;
+}
+
+#enter button img,
+#enter button span {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Courier Prime";
+  max-height: 100%;
+}
+
+.titulo {
+  font-family: "Courier Prime" !important;
+  text-align: justify !important;
+}
+.titulo2 {
+  font-family: "Courier Prime" !important;
+  color: darkred;
+  font-size: 30px;
+  margin-left: 36px;
+  border-bottom: dashed 1px #bbb;
+}
+
+.teste {
+  margin-left: 50px;
+}
